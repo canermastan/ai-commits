@@ -9,7 +9,7 @@ AI-Commits is a command-line tool that generates conventional commit messages by
 ##  Installation
 ### Prerequisites
 
-- Go 1.20 or later must be installed. [Install Go](https://go.dev/doc/install)
+- Go 1.24.1 or later must be installed. [Install Go](https://go.dev/doc/install)
 
 ### ✅ Option 1: Install via `go install` (recommended)
 
