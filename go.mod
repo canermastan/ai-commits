@@ -1,4 +1,4 @@
-module ai-commits
+module github.com/canermastan/ai-commits
 
 go 1.23.0
 
