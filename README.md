@@ -16,15 +16,21 @@ AI-Commits is a command-line tool that generates conventional commit messages by
 ```bash
 go install github.com/canermastan/ai-commits@latest
 ```
+
 After installation, make sure $GOPATH/bin (usually ~/go/bin) is in your PATH, so you can use it globally:
+
 ```bash
 export PATH="$PATH:$(go env GOPATH)/bin"
 ```
+
 Then simply run:
+
 ````bash
 ai-commits
 ```
+
 ### ⚡ Option 2: Build manually
+
 ```bash
 # Clone the repository
 git clone https://github.com/canermastan/ai-commits.git
