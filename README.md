@@ -25,7 +25,7 @@ export PATH="$PATH:$(go env GOPATH)/bin"
 
 Then simply run:
 
-````bash
+```bash
 ai-commits
 ```
 
