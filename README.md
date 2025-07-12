@@ -29,6 +29,19 @@ Then simply run:
 ai-commits
 ```
 
+⚠️ **If you get a checksum error (SECURITY ERROR), it may be due to corrupted local Go module cache. Try these steps:**
+
+```bash
+go clean -modcache
+go install github.com/canermastan/ai-commits@latest
+```
+
+If you still have issues, as a last resort, you can disable checksum verification (not recommended for production environments):
+
+```bash
+GOPROXY=direct GOSUMDB=off go install github.com/canermastan/ai-commits@latest
+```
+
 ### ⚡ Option 2: Build manually
 
 ```bash
