@@ -4,7 +4,7 @@
 
 AI-Commits is a command-line tool that generates conventional commit messages by analyzing your staged changes. It understands your code changes and explanation, then generates a clear, descriptive commit message in English following the Conventional Commits format.
 
-[Demo](https://github.com/user-attachments/assets/18fd1a79-f5b1-4968-941a-5f1d47d7493f)
+[Demo](https://github.com/user-attachments/assets/aa877a84-f36e-4bba-8829-90e6a24fffc9)
 
 ##  Installation
 ### Prerequisites
