@@ -1,13 +1,14 @@
 package cmd
 
 import (
-	"ai-commits/config"
-	"ai-commits/internal/ai"
-	"ai-commits/internal/git"
-	"ai-commits/internal/ui"
 	"flag"
 	"fmt"
 	"os"
+
+	"github.com/canermastan/ai-commits/config"
+	"github.com/canermastan/ai-commits/internal/ai"
+	"github.com/canermastan/ai-commits/internal/git"
+	"github.com/canermastan/ai-commits/internal/ui"
 )
 
 type options struct {

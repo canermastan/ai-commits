@@ -1,7 +1,7 @@
 package main
 
 import (
-	"ai-commits/cmd"
+	"github.com/canermastan/ai-commits/cmd"
 )
 
 func main() {

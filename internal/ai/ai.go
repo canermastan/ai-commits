@@ -1,7 +1,6 @@
 package ai
 
 import (
-	"ai-commits/config"
 	"bytes"
 	"context"
 	"encoding/json"
@@ -9,6 +8,8 @@ import (
 	"io"
 	"net/http"
 	"time"
+
+	"github.com/canermastan/ai-commits/config"
 )
 
 const (
